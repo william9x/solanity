@@ -47,5 +47,5 @@ $ make -j$(nproc)
 ## Running
 
 ```bash
-LD_LIBRARY_PATH=./src/release ./src/release/cuda_ed25519_vanity
+LD_LIBRARY_PATH=./src/release ./src/release/cuda_ed25519_vanity 2>&1 | tee log.txt
 ```
